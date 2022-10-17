@@ -2,35 +2,49 @@ import React from 'react'
 
 type Props = {}
 
-const CategorySidebar = (props: Props) => {
+const UserSidebar = (props: Props) => {
   return (
-    <div>
+    <div className='z-50'>
       <aside className='w-64 hidden lg:block' aria-label='Sidebar'>
         <div className='overflow-y-auto py-4 px-3 bg-white SidebarHeight shadow-lg'>
-          <p className='text-center font-bold text-white p-3 my-3 bg-primary rounded-[2px]'>
-            সকল ক্যাটাগরি
+          <p className=' font-bold text-white p-3 my-3 bg-primary rounded-[2px]'>
+            সকল
           </p>
 
           <ul className='space-y-2'>
             <li>
               <a
                 href='#'
-                className='flex items-center p-2 text-base font-normal text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary group'
+                className='flex items-center border-b-2 p-2 text-base font-normal text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary group'
               >
-                <svg
-                  aria-hidden='true'
-                  className='w-6 h-6  text-secondary hover:text-white transition duration-75  group-hover:text-white '
-                  fill='currentColor'
-                  viewBox='0 0 20 20'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z'></path>
-                  <path d='M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z'></path>
-                </svg>
-                <span className='ml-3'>ড্যাশবোর্ড</span>
+                <span className='ml-3'>মাই ওর্ডার</span>
               </a>
             </li>
             <li>
+              <a
+                href='#'
+                className='flex items-center border-b-2 p-2 text-base font-normal text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary group'
+              >
+                <span className='ml-3'>মাই রিভিউস</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='flex border-b-2 items-center p-2 text-base font-normal text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary group'
+              >
+                <span className='ml-3'>মাই উইসলিস্ট</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='flex items-center p-2 border-b-2 text-base font-normal text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary group'
+              >
+                <span className='ml-3'>ম্যানেজ একাউন্ট</span>
+              </a>
+            </li>
+            {/* <li>
               <button
                 type='button'
                 className='flex items-center p-2 w-full text-base font-normal  text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary transition duration-75 group '
@@ -96,8 +110,8 @@ const CategorySidebar = (props: Props) => {
                   </a>
                 </li>
               </ul>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href='#'
                 className='flex items-center p-2 text-base font-normal text-gray-600 hover:text-white rounded-[2px] hover:bg-secondary group'
@@ -116,7 +130,7 @@ const CategorySidebar = (props: Props) => {
                   প্রিমিয়াম
                 </span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </aside>
@@ -124,4 +138,4 @@ const CategorySidebar = (props: Props) => {
   )
 }
 
-export default CategorySidebar
+export default UserSidebar
