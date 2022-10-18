@@ -5,7 +5,7 @@ import React from 'react'
 const Login: NextPage = () => {
   return (
     <div className=' h-[100vh] flex justify-center items-center '>
-      <div className='w-[400px] mx-auto p-8  shadow-2xl rounded mx-4'>
+      <div className='w-[400px] mx-auto p-8  shadow-2xl rounded sm:mx-4'>
         <h3 className='text-center text-2xl font-bold'>Login</h3>
         <form>
           <div className='mb-6'>
@@ -57,7 +57,7 @@ const Login: NextPage = () => {
           <div className='flex items-center  mb-6'>
             <Link href='/signup'>
               <div className='mr-2 text-sm font-medium text-gray-400 cursor-pointer'>
-                If you don't have any account. Please
+                If you {"don't"} have any account. Please
               </div>
             </Link>
             <Link href='/signup'>

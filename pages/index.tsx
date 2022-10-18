@@ -36,12 +36,12 @@ const Home: NextPage = () => {
 
       <Container>
         <div className='OthersContent'>
-          <div className='flex flex-col lg:flex-row gap-5 my-10 lg:h-[480px]'>
-            <div className='w-full lg:w-[63%] h-full'>
+          <div className='flex flex-col lg:flex-row gap-5 my-10 lg:h-[400px]'>
+            <div className='w-full lg:w-[70%] h-full'>
               <BannerSlider />
             </div>
 
-            <div className='w-full lg:w-[37%] flex flex-col gap-3 h-full justify-between'>
+            <div className='w-full lg:w-[30%] flex flex-col gap-3 h-full justify-center'>
               <FeatureCard />
               <FeatureCard />
               <FeatureCard />
