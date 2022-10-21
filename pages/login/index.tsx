@@ -1,12 +1,12 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
-import React from 'react'
 
 const Login: NextPage = () => {
   return (
     <div className=' h-[100vh] flex justify-center items-center '>
       <div className='w-[400px] mx-auto p-8  shadow-2xl rounded sm:mx-4'>
         <h3 className='text-center text-2xl font-bold'>Login</h3>
+
         <form>
           <div className='mb-6'>
             <label
