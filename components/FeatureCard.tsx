@@ -1,29 +1,34 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {
+  bg: string;
+};
 
-const FeatureCard = (props: Props) => {
+const FeatureCard = ({ bg }: Props) => {
   return (
-    <div className='w-full py-2 px-1 bg-[#EEEFFB]  rounded-lg border border-gray-200 shadow-md flex gap-2 items-center flex-row-reverse justify-end'>
+    <div
+      style={{ background: `${bg}` }}
+      className={`w-full h-[140px] py-3 px-2  rounded-lg border border-gray-200 shadow shadow-primaryAcent flex gap-2 items-center flex-row-reverse justify-end`}
+    >
       <div>
-        <h5 className='mb-2 sm:text-[18px] md:text-lg lg:text-xl text-base font-semibold tracking-tight text-gray-900 '>
+        <h5 className="mb-2 sm:text-[18px] md:text-lg lg:text-xl text-base font-semibold tracking-tight text-gray-900 font-bangla">
           সকল পণ্যে ২৩% ডিসকাউন্ট
         </h5>
-        <p className='mb-3 font-normal text-gray-500 dark:text-gray-400'>
+        <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
           Shop Now
         </p>
       </div>
-      <div className='flex'>
+      <div className="flex">
         <img
-          height={100}
-          width={100}
-          className='rounded'
-          src='https://static.toiimg.com/photo/msid-68976835/68976835.jpg'
-          alt=''
+          height={140}
+          width={160}
+          className="rounded"
+          src="https://static.toiimg.com/photo/msid-68976835/68976835.jpg"
+          alt=""
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FeatureCard
+export default FeatureCard;
