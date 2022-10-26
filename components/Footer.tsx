@@ -7,8 +7,8 @@ type props = {};
 
 const Footer = (props: props) => {
   return (
-    <footer className="mt-10 z-20 relative">
-      <div className="bg-[#F1FFF0] ">
+    <footer className=" z-20 relative">
+      <div className="bg-[#F1FFF0] pt-10">
         <Container>
           <div className="md:flex md:justify-between px-4 sm:p-6">
             <div className="mb-6 md:mb-0">
