@@ -4,7 +4,7 @@ type Props = {};
 
 const CategorySidebar = (props: Props) => {
   return (
-    <div>
+    <div className="fixed z-0">
       <aside className="w-64 hidden lg:block" aria-label="Sidebar">
         <div className="overflow-y-auto py-4 px-3 bg-white SidebarHeight shadow-lg">
           <p className="text-center font-bold text-white p-3 my-3 bg-primary rounded-[2px]">

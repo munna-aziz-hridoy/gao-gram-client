@@ -87,13 +87,13 @@ const NewProductCard = ({ product }: Props) => {
 
         <p className="text-sm text-gray-500">{description.slice(0, 60)}</p>
 
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mt-8">
           <span className="text-xl font-bold text-secondary ">TK {price}</span>
           <a
             href="#"
             className="text-white bg-primary hover:bg-secondary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-3 py-2 text-center "
           >
-            Add to cart
+            কার্ট এ অ্যাড করুন
           </a>
         </div>
       </div>

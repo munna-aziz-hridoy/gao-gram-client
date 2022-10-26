@@ -29,6 +29,6 @@ body {
 
 @media screen and (min-width: 1024px) {
   .OthersContent {
-    margin-top: calc(-100vh + 120px);
+    /* margin-top: calc(-100vh + 120px); */
   }
 }

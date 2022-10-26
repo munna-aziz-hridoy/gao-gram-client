@@ -37,9 +37,9 @@ const ProductCard = ({ product }: Props) => {
           </div>
           <a
             href="#"
-            className="text-white bg-secondary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-3 py-2 text-center "
+            className="text-white bg-secondary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300  rounded text-sm px-3 py-2 text-center font-semibold"
           >
-            Add to cart
+            কার্ট এ অ্যাড করুন
           </a>
         </div>
       </div>

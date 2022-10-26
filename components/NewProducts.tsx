@@ -5,13 +5,14 @@ import NewProductCard from "./reuseable/NewProductCard";
 type Props = {};
 
 import products from "../assets/productData";
+import Container from "./styledComponents/Container";
 
 const NewProducts = (props: Props) => {
   return (
-    <>
-      <div className="my-16">
+    <div className="bg-gray-50 py-24">
+      <Container>
         <h2 className="text-3xl font-bold text-secondary text-center">
-          নতুন পণ্য
+          সকল প্রডাক্ট
         </h2>
 
         {/* tabs */}
@@ -27,13 +28,13 @@ const NewProducts = (props: Props) => {
 
         {/* content */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 justify-items-center p-5 ">
           {products.map((item, index) => (
             <NewProductCard key={index} product={item} />
           ))}
         </div>
-      </div>
-    </>
+      </Container>
+    </div>
   );
 };
 
