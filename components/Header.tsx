@@ -24,12 +24,12 @@ const Header = (props: Props) => {
             <BiMoney className="text-xl mr-2" />
             <span>টাকা</span>
           </div>
-          <div className="sm:inline-block hidden w-[2px] h-[23px] bg-green-600"></div>
+          <div className="sm:inline-block hidden w-[0.5px] h-[23px] bg-green-600"></div>
           <p className="text-sm font-semibold flex items-center gap-2 text-lightGray">
             <FaUser className="text-xl" />
             <span>একাউন্ট</span>
           </p>
-          <div className="sm:inline-block hidden w-[2px] h-[23px] bg-green-600"></div>
+          <div className="sm:inline-block hidden w-[0.5px] h-[23px] bg-green-600"></div>
           <p className="text-sm font-semibold  items-center gap-2 text-lightGray hidden sm:flex">
             <img width={24} src={bdIcon.src} alt="" />
             <span>বাংলা</span>
